@@ -1,5 +1,7 @@
 # CYPRESS
 TESTED WEBSITE: DEMOQA
+TEST SUITE PATH: e2e/TestProject/testcasesofBookstore.cy.js
+TEST SUITE NAME: testcasesofBookstore.cy.js
 
 SCENARIOS:
         -Login bookstore website
