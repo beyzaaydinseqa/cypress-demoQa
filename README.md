@@ -18,6 +18,6 @@ reporter: "@shelex/cypress-allure-plugin": "^2.40.0"
 commands:
 
       open test runner  =>  "npx cypress open"
-      run with reporter =>   " npx cypress run --browser chrome --spec cypress/e2e/TestProject/testcasesofBookstore.cy.js --          env allure=true "
+      run with reporter =>   " npx cypress run --browser chrome --spec cypress/e2e/TestProject/testcasesofBookstore.cy.js --env allure=true "
 
       
