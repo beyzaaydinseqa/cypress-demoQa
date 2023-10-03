@@ -6,7 +6,7 @@ describe("Test cases of bookstore",()=>{
     beforeEach(() => {
         cy.visit('/books')
 
-        // cannot pass second step because of console error, and it solved
+        // cannot continue cause of system console error, and it is solved
         Cypress.on('uncaught:exception', (err, runnable) => {
             // returning false here prevents Cypress from
             // failing the test
@@ -20,8 +20,6 @@ describe("Test cases of bookstore",()=>{
           })          
     
     })
-
-
 
     it('Login bookstore website', () => {
       cy.login('beyzaydn', 'AB12CD34b**');          
